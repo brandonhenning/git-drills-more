@@ -1,0 +1,10 @@
+  527  cd ..
+  528  git init
+  529  git add index.html assets/styles.css
+  530  git status
+  531  git add --all
+  532  git commit -m "first commit"
+  533  git remote add origin https://github.com/brandonhenning/git-drills-more.git
+  534  git push -u origin master
+  535  git pull origin master
+  536  history | tail -n 10 > my-commands
